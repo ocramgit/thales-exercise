@@ -24,18 +24,18 @@
   width: 25%;
 }
 
-.main {
+main {
   background-color: burlywood;
   width: 50%;
 }
 
-.logo {
+logo {
   background-color: red;
   width: 10%;
   height: 10vh;
 }
 
-.header {
+header {
   background-color: aqua;
   width: 100%;
   height: 10vh;
