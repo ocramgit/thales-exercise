@@ -6,10 +6,17 @@
 
 .container {
   width: 100%;
-  height: 200vh;
+  height: 100vh;
 }
 
-.header {
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header {
   position: fixed;
   display: flex;
   flex-direction: row-reverse;
@@ -20,6 +27,50 @@
 
 .help {
   background-color: brown;
-
+  display: flex;
+  flex-direction: row-reverse;
   position: fixed;
+  padding: 3% 20px;
+  background: transparent;
+}
+
+.helpButton {
+  background-color: azure;
+  width: 3vw;
+  height: 3vh;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.content {
+  background-color: brown;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.left {
+  width: 25%;
+}
+
+main {
+  width: 50%;
+  height: 80vh;
+  background-color: burlywood;
+}
+
+.right {
+  width: 25%;
+  height: 80vh;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
 }
